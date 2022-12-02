@@ -1,12 +1,8 @@
 [tool.poetry]
 name = "toolbucks"
-version = "0.2.10"
+version = "0.2.11"
 description = ""
 authors = ["buckynbrocko <77247638+buckynbrocko@users.noreply.github.com>"]
-# packages = [
-#     { include = "toolbucks" }
-# ]
-
 
 [tool.poetry.dependencies]
 python = "^3.9"
