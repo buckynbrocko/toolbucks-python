@@ -1,0 +1,6 @@
+MESSAGE="$1"
+setopt -e
+poetry version patch
+git add .
+git commit -m \""$MESSAGE"\"
+git push
