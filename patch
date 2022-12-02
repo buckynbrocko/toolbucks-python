@@ -1,6 +1,12 @@
-MESSAGE="$1"
+#!/bin/zsh
+
 setopt -e
+if [[ -n "$1" ]] then
+    MESSAGE=$1
+else
+    MESSAGE="..."
+fi
 poetry version patch
 git add .
-git commit -m \""$MESSAGE"\"
+git commit -m $MESSAGE
 git push

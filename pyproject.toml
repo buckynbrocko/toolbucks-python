@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "toolbucks"
-version = "0.2.8"
+version = "0.2.10"
 description = ""
 authors = ["buckynbrocko <77247638+buckynbrocko@users.noreply.github.com>"]
 # packages = [
